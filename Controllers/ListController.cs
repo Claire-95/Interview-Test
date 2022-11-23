@@ -3,15 +3,22 @@
 namespace InterviewTest.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("controller")]
     public class ListController : ControllerBase
+
+    
     {
         public ListController()
         {
+            
         }
+
+        
 
         /*
          * List API methods goe here
          * */
-    }
+         
+    // }
+}
 }
